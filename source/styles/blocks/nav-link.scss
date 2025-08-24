@@ -4,4 +4,13 @@
   line-height: 16px;
   color: $base-black;
   text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $base-primary;
+  }
+
+  &:active {
+    background-color: $base-secondary;
+  }
 }
