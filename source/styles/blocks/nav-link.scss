@@ -1,9 +1,9 @@
 .nav-link {
-  font-family: $montserrat-medium;
   font-size: 12px;
   line-height: 16px;
   color: $base-black;
   text-transform: uppercase;
+  letter-spacing: 0.02em;
 
   &:hover,
   &:focus {
